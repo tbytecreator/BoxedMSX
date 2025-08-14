@@ -1,0 +1,9 @@
+
+services:
+  openmsx:
+    build: .
+    container_name: openmsx
+    devices:
+      - /dev/snd:/dev/snd
+    stdin_open: true
+    tty: true
