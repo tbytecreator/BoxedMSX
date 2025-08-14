@@ -12,4 +12,4 @@ sudo docker run --device /dev/snd \
                 -e DISPLAY=$DISPLAY \
                 -e XDG_RUNTIME_DIR=/tmp \
                 -v /tmp/.X11-unix:/tmp/.X11-unix \
-                -it boxedmsx
+                -it boxedmsx:v01
