@@ -16,4 +16,4 @@ RUN echo "export SDL_AUDIODRIVER=alsa" >> /root/.bashrc
 RUN echo "export SDL_AUDIO_DEVICE=default" >> /root/.bashrc
 RUN echo "startx" > /root/.bash_profile
 RUN echo "exec openmsx" > /root/.xinitrc
-ENTRYPOINT ["openmsx", "-machine", "Gradiente_Expert_GPC-1", "-ext", "DDX_3.0", "-diska", "/root/dsk/."]
+ENTRYPOINT ["openmsx", "-machine", "Panasonic_FS-A1GT", "-diska", "/root/dsk/."]
