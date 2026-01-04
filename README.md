@@ -30,4 +30,3 @@ sudo docker run --device /dev/snd \
                 -e XDG_RUNTIME_DIR=/tmp \
                 -v /tmp/.X11-unix:/tmp/.X11-unix \
                 -it boxedmsx:v01
-sudo docker run --device /dev/snd -e DISPLAY=$DISPLAY -e XDG_RUNTIME_DIR=/tmp -v /tmp/.X11-unix:/tmp/.X11-unix -it boxedmsx:v01

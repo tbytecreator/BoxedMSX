@@ -16,4 +16,4 @@ RUN echo "export SDL_AUDIODRIVER=alsa" >> /root/.bashrc
 RUN echo "export SDL_AUDIO_DEVICE=default" >> /root/.bashrc
 RUN echo "startx" > /root/.bash_profile
 RUN echo "exec openmsx" > /root/.xinitrc
-ENTRYPOINT ["openmsx", "-machine", "Panasonic_FS-A1GT", "-diska", "/root/dsk/."]
+ENTRYPOINT ["openmsx", "-machine", "Panasonic_FS-A1GT", "-diska", "/root/dsk/.", "-command", "set fullscreen on"]
